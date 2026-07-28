@@ -2,42 +2,20 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя карточка</title>
-    <style>
-        body { background: #0b0d15; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: Arial, sans-serif; }
-        .card { background: white; padding: 30px 20px; border-radius: 30px; text-align: center; max-width: 380px; width: 100%; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
-        .avatar { font-size: 60px; display: block; margin: 0 auto 10px; background: #6a11cb; width: 100px; height: 100px; border-radius: 50%; line-height: 100px; color: white; }
-        h1 { color: #1a1a2e; font-size: 26px; margin: 10px 0 5px; }
-        .prof { color: #6a11cb; font-weight: bold; font-size: 14px; background: #f0ecff; padding: 5px 15px; border-radius: 20px; display: inline-block; }
-        .quote { color: #555; font-style: italic; margin: 15px 0; }
-        .stats { display: flex; justify-content: space-around; background: #f5f7ff; padding: 15px; border-radius: 30px; margin: 15px 0; }
-        .stats div { text-align: center; }
-        .stats span { display: block; font-size: 22px; font-weight: bold; color: #1a1a2e; }
-        .stats small { font-size: 10px; color: #777; text-transform: uppercase; }
-        .socials a { display: inline-block; margin: 5px; font-size: 28px; text-decoration: none; background: #f0f2fa; width: 50px; height: 50px; line-height: 50px; border-radius: 50%; }
-        .btn { background: #6a11cb; color: white; border: none; padding: 15px; border-radius: 40px; font-size: 18px; font-weight: bold; width: 100%; margin-top: 10px; }
-        .btn:hover { background: #2575fc; }
-    </style>
+    <title>Екатерина Мощенская</title>
 </head>
 <body>
-    <div class="card">
-        <div class="avatar">👩‍💻</div>
-        <h1>Екатерина Мощенская</h1>
-        <div class="prof">🚀 Веб-разработчик</div>
-        <p class="quote">«Код, который вдохновляет»</p>
-        <div class="stats">
-            <div><span>3</span><small>Года опыта</small></div>
-            <div><span>50</span><small>Проектов</small></div>
-            <div><span>100%</span><small>Отзывов</small></div>
-        </div>
-        <div class="socials">
-            <a href="#">📱</a>
-            <a href="#">🐙</a>
-            <a href="#">🌐</a>
-        </div>
-        <button class="btn" onclick="alert('Спасибо! Свяжусь с вами!')">✉️ Связаться</button>
-        <div style="margin-top:15px; font-size:10px; color:#aaa;">⚡ Готовый блок для личного бренда</div>
-    </div>
+    <h1>Екатерина Мощенская</h1>
+    <p>Веб-разработчик</p>
+    <p>«Код, который вдохновляет»</p>
+    <hr>
+    <p><strong>3 года</strong> опыта</p>
+    <p><strong>50</strong> проектов</p>
+    <p><strong>100%</strong> отзывов</p>
+    <hr>
+    <p>Telegram: @ekaterina_dev</p>
+    <p>GitHub: ekaterinamoshchenskaia-coder</p>
+    <hr>
+    <p>⚡ Готовый блок для личного бренда</p>
 </body>
 </html>
